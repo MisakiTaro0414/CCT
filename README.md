@@ -23,3 +23,6 @@ In your terminal, navigate to `CCT` folder, then run the following command:
 There is also a notebook `CCT_GAN_WSSL.ipynb`. You can install jupyter notebook in the conda environment to run this notebook.
 
 You should see the best validation mIoU at 73.5 at epoch(4) or after the program finishes running
+
+You may also try different backbones implemented for our project. By commenting/uncommenting out the lines in encoder.py, try '''poolformer-m36'''  and '''convnext-base-ink22''' architures to produce better results. Please follow the instructions in encoder.py comments to implement the architecture change correctly. 
+
